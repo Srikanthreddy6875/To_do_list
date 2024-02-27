@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (todoele.value.trim().length === 0) {
             alert("Enter a task details");
         } else {
-            tasklist.innerHTML = `
+            tasklist.innerHTML += `
                 <div class="task">
                     <span id="work">${todoele.value}</span>
                     <button class="del">X</button>
